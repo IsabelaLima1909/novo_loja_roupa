@@ -1,0 +1,75 @@
+/* ================= CABEÇALHO ================= */
+ 
+header {
+ 
+    /* Gradiente de cores */
+    background: linear-gradient(
+        to right,
+        #5db4ca
+    );
+ 
+    /* Espaçamento interno */
+    padding: 0px 5px;
+ 
+    /* Deixa elementos lado a lado */
+    display: flex;
+ 
+    /* Centraliza verticalmente */
+    align-items: center;
+ 
+    /* Espaço entre logo e menu */
+    justify-content: space-between;
+ 
+    /* Sombra embaixo */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+ 
+/* ================= LOGO ================= */
+ 
+.logo {
+ 
+    /* Tamanho da logo */
+    width: 200px;
+ 
+    position: relative;
+ 
+    /* Move visualmente a imagem. */
+    top: 10px;
+ 
+    /* Empurra usando espaçamento. */
+    /* margin-top */
+}
+ 
+.logo:hover{
+ 
+    transform: scale(1.2);
+ 
+}
+/* ================= MENU ================= */
+ 
+nav a {
+ 
+    /* Cor do texto */
+    color: #fafafa;
+ 
+    /* Remove sublinhado */
+    text-decoration: none;
+ 
+    /* Espaço entre links */
+    margin-left: 25px;
+ 
+    /* Tamanho da fonte */
+    font-size: 18px;
+ 
+    /* Deixa em negrito */
+    font-weight: bold;
+ 
+    /* Animação suave */
+    transition: 0.3s;
+ 
+    /* Permite mover os elementos na pagina como top,left,right e bottom */
+    position: relative;
+ 
+    left: -50px;
+}
+
